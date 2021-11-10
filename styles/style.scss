@@ -1,0 +1,76 @@
+@import './variables';
+@import './mixins';
+
+p{
+    color: $primarycolor;
+    font-size: $fontsize;
+    margin: 0;
+}
+
+// Nesting
+nav{
+    background-color: rgb(240, 179, 68);
+    padding: 10px;
+    ul{
+        list-style: none;
+        li{
+            color: $primarycolor;
+            display: inline-block;
+            margin: 10px;
+            &:hover{
+                color: #fff;
+                cursor: pointer;
+            }
+            &::after{
+                content: 'Hi';
+            }
+        }
+    }
+}
+
+
+.section1{
+    margin: 20px 0;
+    @include flexclasses(column, rgb(207, 49, 49));
+}
+
+.section2{
+    margin: 40px 0;
+    @include flexclasses(row, rgb(52, 52, 219));
+}
+
+// Inheritance
+.btn{
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.big-btn{
+    @extend .btn;
+    font-size: 25px;
+}
+
+// Loops
+@for $i from 1 through 6{
+    h#{$i}{
+        color: green;
+    }
+}
+
+@for $i from 1 through 10{
+    .m#{$i}{
+        margin: #{$i}px;
+    }
+    .mt-#{$i}{
+        margin-top: #{$i}px;
+    }
+}
+
+
+$menu-items : home about services contact newitem;
+@each $item in $menu-items {
+    .#{$item}{
+        color:hotpink;
+    }
+}

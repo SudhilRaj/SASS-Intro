@@ -1,0 +1,200 @@
+p {
+  color: #686868;
+  font-size: 25px;
+  margin: 0;
+}
+
+nav {
+  background-color: #f0b344;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  color: #686868;
+  display: inline-block;
+  margin: 10px;
+}
+
+nav ul li:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+nav ul li::after {
+  content: 'Hi';
+}
+
+.section1 {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #cf3131;
+}
+
+.section2 {
+  margin: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #3434db;
+}
+
+.btn, .big-btn {
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.big-btn {
+  font-size: 25px;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: green;
+}
+
+h3 {
+  color: green;
+}
+
+h4 {
+  color: green;
+}
+
+h5 {
+  color: green;
+}
+
+h6 {
+  color: green;
+}
+
+.m1 {
+  margin: 1px;
+}
+
+.mt-1 {
+  margin-top: 1px;
+}
+
+.m2 {
+  margin: 2px;
+}
+
+.mt-2 {
+  margin-top: 2px;
+}
+
+.m3 {
+  margin: 3px;
+}
+
+.mt-3 {
+  margin-top: 3px;
+}
+
+.m4 {
+  margin: 4px;
+}
+
+.mt-4 {
+  margin-top: 4px;
+}
+
+.m5 {
+  margin: 5px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.m6 {
+  margin: 6px;
+}
+
+.mt-6 {
+  margin-top: 6px;
+}
+
+.m7 {
+  margin: 7px;
+}
+
+.mt-7 {
+  margin-top: 7px;
+}
+
+.m8 {
+  margin: 8px;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.m9 {
+  margin: 9px;
+}
+
+.mt-9 {
+  margin-top: 9px;
+}
+
+.m10 {
+  margin: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.home {
+  color: hotpink;
+}
+
+.about {
+  color: hotpink;
+}
+
+.services {
+  color: hotpink;
+}
+
+.contact {
+  color: hotpink;
+}
+
+.newitem {
+  color: hotpink;
+}
+/*# sourceMappingURL=style.css.map */
